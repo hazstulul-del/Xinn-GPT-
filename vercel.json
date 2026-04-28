@@ -1,15 +1,11 @@
 {
   "functions": {
-    "api/webhook.js": {
+    "webhook.js": {
       "memory": 512,
-      "maxDuration": 30,
-      "includeFiles": "**"
+      "maxDuration": 30
     }
   },
-  "routes": [
-    {
-      "src": "/api/webhook",
-      "dest": "/api/webhook.js"
-    }
+  "rewrites": [
+    { "source": "/api/webhook", "destination": "/webhook" }
   ]
 }
