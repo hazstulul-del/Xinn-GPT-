@@ -1,10 +1,7 @@
 {
   "name": "xinngpt",
-  "version": "3.0.0",
-  "main": "webhook.js",
-  "scripts": {
-    "start": "node webhook.js"
-  },
+  "version": "1.0.0",
+  "main": "api/webhook.js",
   "dependencies": {
     "grammy": "^1.20.0",
     "axios": "^1.6.0"
