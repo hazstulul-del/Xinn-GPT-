@@ -1,7 +1,7 @@
 {
   "name": "xinngpt-bot",
-  "version": "1.0.0",
-  "description": "Telegram Bot dengan kepribadian BARRGPT/XINNGPT, gratis pake DeepSeek AI.",
+  "version": "2.0.0",
+  "description": "Telegram Bot AI XINNGPT - BarrGPT Style",
   "main": "api/webhook.js",
   "scripts": {
     "dev": "node api/webhook.js"
