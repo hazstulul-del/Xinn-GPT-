@@ -1,14 +1,12 @@
 {
-  "name": "xinngpt-bot",
-  "version": "2.0.0",
-  "description": "Telegram Bot AI XINNGPT - BarrGPT Style",
-  "main": "api/webhook.js",
+  "name": "xinngpt",
+  "version": "3.0.0",
+  "main": "webhook.js",
   "scripts": {
-    "dev": "node api/webhook.js"
+    "start": "node webhook.js"
   },
   "dependencies": {
     "grammy": "^1.20.0",
     "axios": "^1.6.0"
-  },
-  "license": "MIT"
+  }
 }
